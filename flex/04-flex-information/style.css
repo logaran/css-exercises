@@ -1,15 +1,47 @@
+* {
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#flex-main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+  margin: auto;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  
+}
+.card {
+  width: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.3em;
+  text-align: center;
+}
+
 body {
   font-family: 'Courier New', Courier, monospace;
+  padding: 1em 0;
 }
 
 img {
   width: 100px;
   height: 100px;
+  margin-bottom: 1em;
 }
 
 .title {
   font-size: 36px;
   font-weight: 900;
+  margin-bottom: 2em;
 }
 
 /* do not edit this footer */
